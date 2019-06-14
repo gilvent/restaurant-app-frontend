@@ -1,0 +1,19 @@
+@import "assets/scss/core/_variables.scss";
+
+.restaurant-list-container {
+    background-color:inherit;
+    color:inherit;
+    height:400px;
+    overflow-y:auto;
+   
+}
+
+.restaurant-list-item {
+    text-align:left;
+    background-color:inherit;
+    color:inherit;
+    
+    .list-item-heading {
+        color: $brand-secondary
+    }
+}

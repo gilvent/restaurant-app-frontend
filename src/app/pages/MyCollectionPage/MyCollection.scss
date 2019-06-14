@@ -1,0 +1,22 @@
+@import "assets/scss/core/_variables.scss";
+
+.my-collection-card {
+    text-align:left;
+    background-color: $brand-primary;
+    border-color: $indigo-300;
+    color: white;
+    margin-bottom:20px;
+    .card-header {
+        background-color: $indigo-500;
+        color:white;
+    }
+
+    .collection-button {
+        color: white;
+    }
+    .card-body {
+        text-align:left;
+        font-size: 70%
+    }
+
+}

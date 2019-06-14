@@ -1,0 +1,24 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "core/variables";
+
+
+$theme-colors: (
+  "primary": $brand-primary,
+  "secondary": $brand-secondary,
+  "danger": #ff4136
+);
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "core/app-container";
+@import "core/layout";
+@import "core/scrollbars";
+@import "core/forms";
+
+
+
+
+

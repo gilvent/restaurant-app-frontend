@@ -1,0 +1,12 @@
+@import "assets/scss/core/_variables.scss";
+
+.collection-detail-tab{
+    background-color: $brand-primary;
+    color:white;
+    cursor: pointer;
+    .nav-link.active {
+        border-color: white;
+        background-color: $brand-primary;
+        color:white 
+    }
+}

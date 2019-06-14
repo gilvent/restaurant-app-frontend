@@ -1,0 +1,16 @@
+@import "assets/scss/core/_variables.scss";
+
+.register-panel-container {
+    background-color: $brand-primary;
+    border-radius: 5px;
+    height:500px;
+    width:400px;
+    padding:5%
+}
+
+.sign-in-text{
+    font-size:70%;
+    .sign-in-link{
+        color:$brand-secondary
+    }
+}

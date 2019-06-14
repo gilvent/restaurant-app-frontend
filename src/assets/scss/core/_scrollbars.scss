@@ -1,0 +1,44 @@
+.circle-scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: rgba(5, 0, 0, 0);
+    border-radius: 10px;
+    opacity:0
+}
+
+.circle-scrollbar::-webkit-scrollbar
+{
+	width: 10px;
+    background-color: rgba(0, 0, 0, 0.199);
+    opacity:0
+}
+
+.circle-scrollbar::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.199);
+	background-image: -webkit-gradient(linear,
+									   40% 0%,
+									   75% 84%,
+									   from($brand-secondary),
+									   to($brand-secondary),
+									   color-stop(.6,$brand-secondary))
+}
+
+
+.rect-scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.3);
+}
+
+.rect-scrollbar::-webkit-scrollbar
+{
+	width: 6px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.rect-scrollbar::-webkit-scrollbar-thumb
+{
+	background-color: $brand-secondary;
+}
